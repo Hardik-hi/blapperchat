@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, { Component } from 'react';
+import React from 'react';
 import ChatInterface from './components/chat_main/chat_window/ChatInterface';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Login from './components/login/Login';

@@ -1,16 +1,12 @@
 import React from 'react';
 import {useState} from 'react';
 import {Link} from 'react-router-dom';
-import { StyleSheet, css } from 'aphrodite';
 import './login.css';
 import Logo from '../../assets/icon-logo-large';
 
 function Login(props){
     const [name,setname]=useState('');
     const [room,setroom]=useState('');
-    const styles=StyleSheet.create({
-
-    })
     return(
         <div className='main'>
             <p className='sign' align='center'>

@@ -4,9 +4,6 @@ import { StyleSheet, css } from 'aphrodite';
 import LogoComponent from './LogoComponent.js';
 import GroupTile from './GroupTile.js';
 
-
-
-
 const styles= StyleSheet.create({
 
     container : {
@@ -22,7 +19,6 @@ const styles= StyleSheet.create({
         height:'82vh',
         position:'fixed',
         width:'28vw',
-        marginTop:'15vh'
     }
 
 });

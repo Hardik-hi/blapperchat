@@ -28,7 +28,6 @@ const styles=StyleSheet.create({
     width: '5vw',
     height: '5vw',
     marginLeft:'2vw',
-    background: '#F4FDFF',
     borderRadius: '150px',
     background: '#e0e0e0',
     boxShadow: 'inset -5px 5px 6px #c1c1c1,inset 5px -5px 6px #ffffff',

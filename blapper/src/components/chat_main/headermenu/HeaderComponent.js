@@ -1,4 +1,4 @@
-import {React,useState} from 'react';
+//import {React,useState} from 'react';
 import { Row } from 'simple-flexbox';
 import { StyleSheet, css } from 'aphrodite';
 
@@ -24,7 +24,6 @@ const styles=StyleSheet.create({
 });
 
 function HeaderComponent(props){
-    const [show,setShow]=useState(false);
 
     return (
         <Row className={css(styles.container)}  vertical="center">
